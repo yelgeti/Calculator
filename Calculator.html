@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Calculator </title>
+<link rel="stylesheet" href="Cal.css" />
+</head>
+<body>
+<br><br><br>
+<center><h2><i>Calculator</i></h2>
+<div class="box">
+<form name="form1"><br>
+<input id="t" type="text" class="but" class="res"> <br> <br>
+<input class="but" type="button" value="   1   " onclick="insert('1')">&nbsp;
+<input class="but" type="button" value="   2   " onclick="insert('2')">&nbsp;
+<input class="but" type="button" value="   3   " onclick="insert('3')">&nbsp;
+<input class="but" id="b1" type="button" value="   +   " onclick="insert('+')">&nbsp;
 
+<br><br>
+<input class="but" type="button" value="   4   " onclick="insert('4')">&nbsp;
+<input class="but" type="button" value="   5   " onclick="insert('5')">&nbsp;
+<input class="but" type="button" value="   6   " onclick="insert('6')">&nbsp;
+<input class="but" id="b1" type="button" value="   -   " onclick="insert('-')">&nbsp;
+
+<br><br>
+<input class="but" type="button" value="   7   " onclick="insert('7')">&nbsp;
+<input class="but" type="button" value="   8   " onclick="insert('8')">&nbsp;
+<input class="but" type="button" value="   9   " onclick="insert('9')">&nbsp;
+<input class="but" id="b1" type="button" value="   *   " onclick="insert('*')">&nbsp;
+
+<br><br>
+<input class="but" id="b1" type="button" value="   /    " onclick="insert('/')">&nbsp;
+<input class="but" id="b1" type="button" value="   %   " onclick="insert('%')">&nbsp;
+<input class="but" id="b1" type="button" value="   .    " onclick="insert('.')">&nbsp;
+<input class="but" id="b1" type="button" value="   =   " onclick="equal()">&nbsp;
+
+
+<br><br>
+<input class="but" id="b2" type="button" value="Clear" onclick="form1.t.value=''">&nbsp;
+</form> 
+<script src="Cal.js"></script>
+</center>
+</body>
+</html>
